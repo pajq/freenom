@@ -13,7 +13,7 @@ jobs:
       - name: Checkout master
         uses: actions/checkout@v2
         with:
-          repository: 'luolongfei/freenom'
+          repository: 'geluni/next-freenom'
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
