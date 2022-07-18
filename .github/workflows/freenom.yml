@@ -3,7 +3,7 @@ name: Run it on action
 on:
   push:
   schedule:
-    - cron: 00 04 * * *
+    - cron: 00 08 * * *
 jobs:
   run-it:
     runs-on: ubuntu-18.04
